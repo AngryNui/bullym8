@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color:white;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: lightgrey;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    border: 1px dotted white;
+    width: 60%;
+    height: 50%;
+    margin: 100px auto 0 auto;
+    align-items: center;
+    text-align: center;
+
+    input{
+        font-family: Helvetica, sans-serif;
+        background-color: gray;
+        border: 0;
+        text-align: center;
+    }
+
+    #textArea{
+        width: 100%;
+        border: 0;
+        resize: vertical;
+        height:100%;
+    }
+}
+
